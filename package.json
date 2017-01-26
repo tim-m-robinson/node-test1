@@ -6,9 +6,8 @@
     "express": "^4.14.0"
   },
   "scripts": {
-    "start": "node app.js",
-    "test" : "./node_modules/mocha/bin/mocha",
-    "test-xunit" : "./node_modules/mocha/bin/mocha --recursive -R xunit test > test-reports.xml"
+    "start" : "node app.js",
+    "test" : "./node_modules/mocha/bin/mocha --recursive -R xunit test > test-reports.xml"
   },
   "devDependencies": {
     "chai": "^3.5.0",
