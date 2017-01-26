@@ -9,6 +9,6 @@ app.get('/', function (req, res) {
   res.set('Content-Type', 'text/plain');
   res.end('Hi there!')
 })
-app.listen(9000)
+app.listen(process.env.PORT||9000)
 
 module.exports = app;
